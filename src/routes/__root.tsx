@@ -34,6 +34,11 @@ export const Route = createRootRoute({
       { property: "og:title", content: "Adwaya Prana — Premium Cigars" },
       { property: "og:description", content: "Premium handcrafted cigars from the finest tobacco leaves." },
       { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "Adwaya Prana — Premium Cigars" },
+      { name: "twitter:description", content: "Premium handcrafted cigars from the finest tobacco leaves." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d5783234-4a66-4811-b192-b2ae18daca5d/id-preview-4b1d7d18--16b28ea1-1d03-46cb-acff-ef8da752532c.lovable.app-1778555789852.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d5783234-4a66-4811-b192-b2ae18daca5d/id-preview-4b1d7d18--16b28ea1-1d03-46cb-acff-ef8da752532c.lovable.app-1778555789852.png" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
