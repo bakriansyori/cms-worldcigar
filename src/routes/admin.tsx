@@ -33,14 +33,14 @@ function AdminLayout() {
     );
   }
 
-  const items = [
+  const items: { to: string; label: string; icon: typeof LayoutDashboard; exact?: boolean }[] = [
     { to: "/admin", label: "Dashboard", icon: LayoutDashboard, exact: true },
     { to: "/admin/products", label: "Products", icon: Package },
     { to: "/admin/pages", label: "Page Content", icon: Settings },
     { to: "/admin/blog", label: "Blog", icon: FileText },
     { to: "/admin/media", label: "Media", icon: ImgIcon },
     { to: "/admin/users", label: "Users", icon: Users },
-  ] as const;
+  ];
 
   return (
     <div className="min-h-screen flex bg-cigar-dark">
