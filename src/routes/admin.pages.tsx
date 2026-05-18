@@ -67,9 +67,9 @@ function PagesAdmin() {
                   </div>
                   <div className="md:col-span-2 flex gap-2">
                     {r.field_type === "textarea" ? (
-                      <Textarea value={values[r.id] ?? ""} onChange={(e) => setValues({ ...values, [r.id]: e.target.value })} rows={3} />
+                      <Textarea value={values[r.id] ?? ""} onChange={(e) => setValues({ ...values, [r.id]: e.target.value })} rows={3} className="text-white" />
                     ) : (
-                      <Input value={values[r.id] ?? ""} onChange={(e) => setValues({ ...values, [r.id]: e.target.value })} />
+                      <Input value={values[r.id] ?? ""} onChange={(e) => setValues({ ...values, [r.id]: e.target.value })} className="text-white" />
                     )}
                     <Button
                       type="button"
